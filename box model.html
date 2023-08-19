@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document-Box-Model</title>
+    <style>
+        div{
+            width: 320px;
+            border: 5px solid gray;
+            padding: 10px;
+            margin: 0;
+            outline: 5px solid rebeccapurple;
+            background-color: aqua;
+
+        }
+        body{
+            background: scroll;
+            background-color: rgba(134, 234,34, 0.5);
+            font-size: medium;
+        }
+        table{
+            background-color: aqua;
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th,td{
+            border-bottom: 2px solid gold;
+            text-align: center;
+        }
+        th:hover{
+            background-color: rgb(130,130,30);
+        }
+        tr:hover{
+            background-color: rgba(120,20,100,0.3);
+        }
+        a:hover{
+            background-color: antiquewhite;
+            color: aqua;
+        }
+        a::after{
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Summary</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate vel, velit explicabo aliquam, at ab ratione sapiente sit molestias corporis animi eos, facilis quo! Porro, nemo dolorum. Tenetur eveniet animi ipsum deleniti, ea nesciunt aspernatur mollitia nam minus, aliquid dignissimos eum reiciendis molestias earum eos odio porro officia sequi odit!</p>
+    </div>
+    <hr>
+    <div>
+        <h1>Introduction</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, reiciendis dolorem. Fugit corporis amet dolor voluptatibus iure ab possimus iusto fuga inventore. Nobis, distinctio perferendis? Similique soluta architecto reprehenderit molestias deleniti quisquam dignissimos fuga totam recusandae aliquid debitis enim, sit cupiditate possimus deserunt. Inventore nam itaque dicta sequi necessitatibus repellendus. Eligendi deleniti ipsum odio debitis laboriosam voluptates harum dolorem corporis. Est aut quibusdam, maxime quaerat aliquam sunt alias architecto, qui eum iusto velit. Officiis aliquid dolorum est aut reprehenderit porro autem magnam et excepturi inventore? Harum facere, quos perferendis tenetur voluptates fugiat ipsum ullam architecto est fugit neque minus. Eligendi. ipsum dolor sit amet consectetur adipisicing elit. Voluptate vel, velit explicabo aliquam, at ab ratione sapiente sit molestias corporis animi eos, facilis quo! Porro, nemo dolorum. Tenetur eveniet animi ipsum deleniti, ea nesciunt aspernatur mollitia nam minus, aliquid dignissimos eum reiciendis molestias earum eos odio porro officia sequi odit!</p>
+    </div>
+    <br>
+    <table>
+        <h2>Resources to Download</h2>
+        <tr>
+            <th>Title</th>
+            <th>no.of.Pages</th>
+            <th>Download link</th>
+        </tr>
+        <tr>
+            <td>Genral Science</td>
+            <td>69</td>
+            <td><a href="#">download here</a></td>
+        </tr>
+        <tr>
+            <td>History</td>
+            <td>43</td>
+            <td><a href="#">download here</a></td>
+        </tr>
+        <tr>
+            <td>Geography</td>
+            <td>50</td>
+            <td><a href="#">download here</a></td>
+        </tr>
+    </table>
+</body>
+</html>

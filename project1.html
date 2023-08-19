@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document-Projrct1</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: aquamarine;
+        }
+
+
+        header{
+            background-color: #333;
+            padding: 25px;
+        }
+
+        nav h1{
+            color: #e7d5d5;
+            
+        }
+
+        nav ul{
+            list-style-type:none ;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li{
+            display: inline;
+            margin-right: 15px;
+        }
+
+        nav ul li:hover{
+            background-color: aqua;
+        }
+
+        nav a{
+            color: #566534;
+            text-decoration: none;
+        }
+        section{
+            padding: 60px;
+            text-align: center;
+        }
+
+        section h2{
+            margin-bottom: 30px;
+
+        }
+
+        .project{
+            display: inline-block;
+            vertical-align: top;
+            margin: 24px;
+        }
+
+        footer{
+            background-color: #333;
+            color: #fff;
+            padding: 30px;
+            text-align: center;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <header>
+    <nav>
+        <h1>JOHN's Protfilio</h1>
+        <ul>
+            <li><a href="#about">About ME</a></li>
+            <li><a href="#My_Projects">Projects</a></li>
+            <li><a href="#Contact_Me">Contact</a></li>
+        </ul>
+    <hr>
+    </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me:</h2>
+        <p>I am john L solanski , i am a fullstack web devloper,i woking in xxx company.</p>
+    </section>
+    <hr>
+    <section id="projects">
+        <h2>MY PROJECTS</h2>
+        <div class="project">
+            <h3>Netflix clone Project using React</h3>
+            <p>Descrption about project</p>
+        </div>
+        <div class="project">
+            <h3>Amazon E-coM Project using React</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab facere ea, obcaecati voluptate alias quasi accusantium delectus qui quod sapiente eum quibusdam sint illum, facilis reprehenderit quae sit laboriosam, consequuntur illo. Libero quam ipsa quae quibusdam, eius voluptatibus eos debitis ex voluptas dignissimos ducimus quasi porro ratione laudantium cum quis?</p>
+        </div>
+        <div class="project">
+            <h3>Facebook landing page Project</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem consectetur eum enim neque ipsum! Amet id quaerat nesciunt, eligendi qui earum voluptate corporis nostrum maiores suscipit, officiis soluta omnis explicabo!</p>
+        </div>
+        <div class="project">
+            <h3>Grocery Ordering Website Project </h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius explicabo sint error inventore nisi id tempora quas.</p>
+        </div>
+
+    </section>
+    <hr>
+    <section id="Contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="name">Message:</label>
+            <textarea  id="Message" name="Message" required></textarea>
+            <button type="submit">Send a Message </button>
+        </form>
+
+    </section>
+    <hr>
+    <footer>
+        <p>&copy; 2023 John's Portfolio</p>
+    </footer>
+</body>
+</html>

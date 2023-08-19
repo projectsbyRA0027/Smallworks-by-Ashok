@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .animated-nav{
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            background-color: rgb(62, 63, 39);
+            padding: 10px 0;
+        }
+
+        .animated-nav li {
+            margin: 0 15px ;
+            transition: background-color 0.3s ease,transform 0.2s ease;
+        }
+
+        .animated-nav a{
+            text-decoration: none;
+            color: #fff;
+            font-size: 16px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3 ease,
+            transform 0.2s ease;
+
+        }
+
+        .animated-nav a:hover{
+            background-color: #555;
+            transform: translate(-3px);
+        }
+
+        .animated-nav:hover ul {
+            background-color: #444;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <nav class="animated-nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">PortFolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
