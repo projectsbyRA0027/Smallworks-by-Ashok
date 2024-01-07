@@ -9,7 +9,7 @@ function selectItem(e){
     this.classlist.add('tab-border');
 
     const tabcontentitem = document.querySelector(`${this.id}-content`);
-    tabcontentitem.classList.add('show')
+    tabcontentitem.classList.add('.show')
 }
 
 function removeBorder(){
@@ -20,7 +20,7 @@ function removeBorder(){
 
 function removeShow(){
     tabcontentitems.forEach(item => {
-        item.classList.remove('show')
+        item.classList.remove('.show')
     });
 }
 
