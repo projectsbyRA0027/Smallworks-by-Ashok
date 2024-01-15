@@ -20,7 +20,7 @@ function removeBorder(){
 
 function removeShow(){
     tabcontentitems.forEach(item => {
-        item.classList.remove('.show')
+        item.classList.remove('show')
     });
 }
 
