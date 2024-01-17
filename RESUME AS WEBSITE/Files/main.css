@@ -113,3 +113,47 @@ footer{
     margin-right: 5px;
 }
 
+/*objectives page*/
+.container{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.container h2{
+    text-align: center;
+    color: #000000;
+    background-color: var(--primary-color);
+}
+
+
+.container p{
+    text-shadow: #6f54f1 2px;
+    font-size: large;
+    font-weight: 300;
+    width: 200px;
+    height: 200px;
+    background-color: var(--secondary);
+}
+
+.container .box-2{
+    height: 30vh;
+    padding-top: 10vh;
+    animation-name: to-primary;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+
+@keyframes to-primary {
+    from{
+        background-color: var(--secondary);
+    }
+
+    to{
+        background-color: var(--primary-color);
+    }
+}
+
+
+
