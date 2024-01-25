@@ -1,0 +1,11 @@
+.bg-dark{
+    background-color:#ff567890;
+}
+
+.bg-primary{
+    background-color: #ff23ff;
+}
+
+.bg-danger{
+    background-color: rgba(200,234,156,0.8);
+}
