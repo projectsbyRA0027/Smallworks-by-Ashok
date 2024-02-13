@@ -1,24 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Accordian from './components/accordian';
+import ModalTest from './components/custom-modal-popup/modal-test';
+import TabTest from './components/custom-tabs/tab-test';
+import GithubProfileFinder from './components/github-profile-finder';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div className='app'>
+     {/* Accordian component */}
+       <Accordian/> 
+     {/* Custom Modal Component */}
+      <ModalTest/> 
+      <TabTest />
+       {/* Github profile finder */}
+       <GithubProfileFinder/> 
+ 
+
+   </div>
   );
 }
 
