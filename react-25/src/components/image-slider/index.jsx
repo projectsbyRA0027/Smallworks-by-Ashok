@@ -1,6 +1,6 @@
 import { useEffect,useState } from "react";
 import {BsArrowLeftCircleFill,BsArrowRightCircleFill} from "react-icons/bs";
-import "./style.css";
+import "./styles.css";
 
 export default function ImageSlider({url,limit=5,page=1}){
     const[images,setImages] = useState([]);
@@ -50,7 +50,7 @@ export default function ImageSlider({url,limit=5,page=1}){
     return (
         <div className="container">
           <BsArrowLeftCircleFill
-            onClick={handlePrevious}
+            onClick={handleprevious}
             className="arrow arrow-left"
           />
           {images && images.length

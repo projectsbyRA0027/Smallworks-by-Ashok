@@ -4,6 +4,7 @@ import ModalTest from './components/custom-modal-popup/modal-test';
 import TabTest from './components/custom-tabs/tab-test';
 import GithubProfileFinder from './components/github-profile-finder';
 import ImageSlider from './components/image-slider';
+import LightDarkMode from './components/light-dark-mode';
 function App() {
   return (
    <div className='app'>
@@ -20,6 +21,8 @@ function App() {
         page={"1"}
         limit={"10"}
       />  
+       {/* light and dark theme switch */}
+       <LightDarkMode/>
 
        
  
