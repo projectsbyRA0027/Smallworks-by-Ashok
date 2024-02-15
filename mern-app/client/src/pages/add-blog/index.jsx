@@ -1,5 +1,5 @@
 import { useContext,useEffect } from "react";
-import classes from "./style.module.css";
+import "./style.module.css";
 import { Globalcontext } from "../../context";
 import axios from "axios";
 import {useNavigate,useLocation} from "react-router-dom";
