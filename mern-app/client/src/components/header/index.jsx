@@ -1,4 +1,4 @@
-import {link} from "react-router-dom";
+import {Link} from "react-router-dom";
 import classes from "./styles.module.css";
 
 export default function Header(){

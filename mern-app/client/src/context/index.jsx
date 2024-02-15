@@ -13,7 +13,7 @@ export default function GlobalState({ children }) {
     const [isEdit, setIsEdit] = useState(false);
   
     return (
-      <GlobalContext.Provider
+      <Globalcontext.Provider
         value={{
           blogList,
           setBlogList,
@@ -26,6 +26,6 @@ export default function GlobalState({ children }) {
         }}
       >
         {children}
-      </GlobalContext.Provider>
+      </Globalcontext.Provider>
     );
   }
