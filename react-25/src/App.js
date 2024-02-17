@@ -5,6 +5,8 @@ import TabTest from './components/custom-tabs/tab-test';
 import GithubProfileFinder from './components/github-profile-finder';
 import ImageSlider from './components/image-slider';
 import LightDarkMode from './components/light-dark-mode';
+import QRCodeGenerator from './components/qrcode-generator';
+import RandomColor from './components/random-color';
 function App() {
   return (
    <div className='app'>
@@ -23,6 +25,8 @@ function App() {
       />  
        {/* light and dark theme switch */}
        <LightDarkMode/>
+       <QRCodeGenerator/>
+       <RandomColor />
 
        
  
