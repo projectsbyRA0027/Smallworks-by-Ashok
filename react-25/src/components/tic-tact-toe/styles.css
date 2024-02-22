@@ -1,0 +1,30 @@
+.tic-tac-toe-container{
+    display: grid;
+    grid-row:q;
+}
+
+.squre{
+    border: 1px solid limegreen;
+    float:right;
+    font-size: 40px;
+    height: 100px;
+    padding: 0px;
+    text-align: center;
+    width: 100px;
+    margin-right: -1px;
+    margin-top: -1px;
+    cursor: pointer;
+}
+
+button{
+    width: 50%;
+    background: fixed;
+    background-color:#456789;
+    border-radius: 5px;
+    box-shadow: #456789;
+}
+
+button:hover{
+    background-color: aquamarine;
+    
+}

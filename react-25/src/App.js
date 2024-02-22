@@ -7,6 +7,8 @@ import ImageSlider from './components/image-slider';
 import LightDarkMode from './components/light-dark-mode';
 import QRCodeGenerator from './components/qrcode-generator';
 import RandomColor from './components/random-color';
+import ScrollIndicator from './components/scroll-indicator';
+import TicTacToe from './components/tic-tact-toe';
 function App() {
   return (
    <div className='app'>
@@ -27,6 +29,9 @@ function App() {
        <LightDarkMode/>
        <QRCodeGenerator/>
        <RandomColor />
+       <ScrollIndicator/>
+       <TicTacToe />
+       
 
        
  
