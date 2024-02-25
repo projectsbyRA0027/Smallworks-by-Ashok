@@ -9,16 +9,23 @@ import QRCodeGenerator from './components/qrcode-generator';
 import RandomColor from './components/random-color';
 import ScrollIndicator from './components/scroll-indicator';
 import TicTacToe from './components/tic-tact-toe';
+import StarRating from './components/star-rating';
+import SerchAutocomplete from './components/serch-auto-complete-with-api';
+import TreeView from './components/tree-view';
+import menus from './components/tree-view/data';
 function App() {
   return (
    <div className='app'>
      {/* Accordian component */}
        <Accordian/> 
      {/* Custom Modal Component */}
-      <ModalTest/> 
+      <ModalTest/>
+      <hr />
       <TabTest />
+      <hr />
        {/* Github profile finder */}
-       <GithubProfileFinder/> 
+       <GithubProfileFinder/>
+       <hr/> 
       {/* Image slider component */}
        <ImageSlider
         url={"https://picsum.photos/v2/list"}
@@ -31,6 +38,9 @@ function App() {
        <RandomColor />
        <ScrollIndicator/>
        <TicTacToe />
+       <StarRating noOfStars={10} />
+       <SerchAutocomplete />
+       <TreeView menus={menus} />
        
 
        
