@@ -1,0 +1,7 @@
+ method:'POST',
+        headers: {
+            'content-type': 'application/json',
+            'X-RapidAPI-Key': 'ec492cb49fmshcaffceb3b1c251cp1ffc16jsne43cefe0dad6',
+            'X-RapidAPI-Host': 'chatgpt-api8.p.rapidapi.com'
+        },
+        body:`{"messages":[{"role":"user","content":"${message}"}]}`
