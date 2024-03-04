@@ -1,5 +1,8 @@
 import {Bars3Icon} from '@heroicons/react/24/solid'
 import {useState} from 'react'
+import Hero from './Hero';
+import Projects from './Projects';
+import Contact from './Contact';
 export default function Header(){
     const [toggleMenu,setToggleMenu] = useState(false);
 
@@ -8,9 +11,9 @@ export default function Header(){
         <nav className="hidden md:block">
         < ul className="flex text-white">
             <li><a href="#">Home</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">projects</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href={Hero}>about</a></li>
+            <li><a href={Projects}>projects</a></li>
+            <li><a href={Contact}>Contact</a></li>
         </ul>
         </nav>
         {toggleMenu && <nav className="hidden md:hidden">
