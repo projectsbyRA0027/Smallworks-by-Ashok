@@ -1,13 +1,75 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.slick-arrow{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.next-arrow{
+  right: 0px;
+  cursor: pointer;
+}
+
+.prev-arrow{
+  cursor: pointer;
+  z-index: 999;
+}
+.slick-arrow:hover{
+  color: #ff5d1d;
+}
+
+.contact-us-container{
+  position: relative;
+}
+
+.stickey-background{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.stickey-background img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.top-icon svg{
+  padding: 10px;
+}
+svg{
+  margin: 0 !important;
+}
+
+.sidebar-container{
+  height: 100%;
+  overflow-y: auto;
+}
+
+.cart-img{
+  text-align: center;
+}
+
+.cart-img img{
+  object-fit: cover;
+  width: 80px;
+}
+
+.cart-img li{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-group-btn button{
+  background-color: black;
+  color: wheat;
+  padding: 4px;
+  font-size: 14px;
+  font-weight: lighter;
 }

@@ -1,5 +1,5 @@
 import React , {useEffect,useState} from "react";
-import {link} from "react-router-dom";
+import {Link} from "react-router-dom";
 import {FaBars,FaTimes} from "react-icons/fa";
 import Icons from "../components/Icons";
 import {nav} from "../data/Data";
@@ -60,7 +60,7 @@ export const Header = () => {
                                 <ul className="flex flex-col p-4 m-8 font-bold">
                                     {nav.map((list,key)=>(
                                         <div className="mb-3">
-                                            <NavItem key={index} to={items.path} label={items.text}></NavItem>
+                                            <NavItem key={key} to={list.path} label={list.text}></NavItem>
                                         </div>
                                     ))}
                                 </ul>

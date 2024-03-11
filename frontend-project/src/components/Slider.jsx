@@ -7,7 +7,7 @@ import React,{useRef} from 'react';
 
 
 
-export const Sliders = () => {
+export default function Sliders(){
 const sliderRef = useRef(null);
 
 const settings = {

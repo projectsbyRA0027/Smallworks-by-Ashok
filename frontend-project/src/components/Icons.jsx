@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "./fontAwesome";
+import "./fontAwsome";
 import Cart from "../common/Cart";
 import { useSelector } from "react-redux";
 

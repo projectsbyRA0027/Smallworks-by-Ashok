@@ -3,11 +3,11 @@ import {products} from "../data/Data";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawsome";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import{
     faChevronLeft,
     faChevronRight,
-} from "@fortawsome/free-solid-svg-icons";
+} from "@fortawesome/free-solid-svg-icons";
 
 import "./../index.css";
 import Heading from "../common/Heading";
@@ -124,3 +124,5 @@ const Arrival = () =>{
     </div>
     );
 };
+
+export default Arrival;

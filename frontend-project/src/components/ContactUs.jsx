@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const ContactUs = () => {
+export default function ContactUs(){
   return (
     <div className='contact-us-container'>
         <div className='m-16'>

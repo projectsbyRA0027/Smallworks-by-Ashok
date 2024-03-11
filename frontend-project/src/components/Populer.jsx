@@ -8,7 +8,7 @@ import {
   faChevronLeft,
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
-import "./../main.css";
+import "./../index.css";
 import Heading from "../common/Heading";
 
 const NextArrow = (props) => (
