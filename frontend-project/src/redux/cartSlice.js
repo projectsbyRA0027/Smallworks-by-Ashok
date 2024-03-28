@@ -1,5 +1,5 @@
 import {createSlice} from '@reduxjs/toolkit';
-import { json } from 'react-router';
+import { json} from 'react-router';
 
 const storeInLocalStorage = (data) =>{
     localStorage.setItem("cart",JSON.stringify(data));

@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import { Feautres } from './pages/Feautres';
 import { Footer } from './common/Footer';
 
+
 export default function App(){
   return(
     <>

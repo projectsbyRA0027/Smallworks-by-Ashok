@@ -1,11 +1,11 @@
 import { products } from "../data/Data";
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Heading from "../common/Heading";
 import { FontAwesomeIcon } from "react-fontawesome";
 import { useState } from "react";
 
-const Category = () => {
+const BestSeller= () => {
   var settings = {
     responsive: [
       {
@@ -130,4 +130,4 @@ const Category = () => {
   );
 };
 
-export default Category;
+export default BestSeller();

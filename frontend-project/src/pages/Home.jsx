@@ -1,6 +1,5 @@
 import React from 'react';
 import Sliders from "../components/Slider";
-import Category from "../components/Category";
 import Arrival from "../components/Arrival";
 import Popular from "../components/Populer";
 import BestSeller from "../components/BestSeller";
@@ -13,7 +12,6 @@ export default function Home() {
     <>
       <div className='bg-white'>
         <Sliders />
-        <Category />
         <Arrival />
         <Popular />
         <BestSeller />

@@ -21,57 +21,60 @@ const NextArrow = (props) =>(
     </div>
   );
 
-export default function Category() {
+  const Category = () => {
     var settings = {
-        dots: false,
-        infinite:true,
-        speed: 500,
-        slidesToShow:5,
-        slidesToScroll:1,
-        nextArrow:<NextArrow />,
-        prevArrow:<PrevArrow />,
-        responsive:[
-          {
-              breakpoint:1024,
-              settings:{
-                  slidesToShow:3,
-              },
+      dots: false,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 6,
+      slidesToScroll: 1,
+      nextArrow: <NextArrow />,
+      prevArrow: <PrevArrow />,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
           },
-          {
-              breakpoint:768,
-              settings:{
-                  slidesToShow:2,
-              },
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 2,
           },
-          {
-              breakpoint:480,
-              settings:{
-                  slidesToShow:1,
-              },
+        },
+        {
+          breakpoint: 640,
+          settings: {
+            slidesToShow: 1,
           },
+        },
       ],
-      };
-  return (
-    <div className="bg-white m-10 overflow-hidden text-center relative">
-        <Slider {...settings} >
-            {category.map((item,index)=>(
-                <div key={index}>
-                   <div className="max-w-xs m-4 transition-transform transform hover:scale-105 hover:text-red-600">
-                    <div className="bg-gray-100 p-12 hover:bg-white hover:shadow-md transition-all duration-300">
-                        <img 
-                        src={item.img} 
-                        alt={item.category}
-                        title={item.category}
-                        className="mx-auto" 
-                        />
-                        <div className="mt-4">
-                            <div className="font-semibold uppercase">{item.category}</div>
-                        </div>
-                    </div>
-                   </div>
+    };
+  
+    return (
+      <div className="bg-white m-10 overflow-hidden text-center relative">
+        <Slider {...settings}>
+          {category.map((item, index) => (
+            <div key={index}>
+              <div className="max-w-xs m-4 transition-transform transform hover:scale-105 hover:text-red-600">
+                <div className="bg-gray-100 p-12 hover:bg-white hover:shadow-md transition-all duration-300">
+                  <img
+                    src={item.img}
+                    title={item.category}
+                    alt={item.category}
+                    className="mx-auto"
+                  />
+                  <div className="mt-4">
+                    <div className="font-semibold uppercase">{item.category}</div>
+                  </div>
                 </div>
-            ))}
+              </div>
+            </div>
+          ))}
         </Slider>
-    </div>
-  );
-};
+      </div>
+    );
+  };
+  
+  export default Category;
