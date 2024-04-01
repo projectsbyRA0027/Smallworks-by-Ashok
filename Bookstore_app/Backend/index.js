@@ -12,14 +12,14 @@ const app = express();
 //middleware for parsing request
 app.use(express.json());
 //adding cors method 1
-app.use(cors());
-// method 2
-app.use(cors({
-    origin:'http://localhost:3000',
-    methods:['GET','POST','PUT','DELETE'],
-    allowedHeaders:['Content-Type'],
-})
-);
+// app.use(cors());
+// // method 2
+// app.use(cors({
+//     origin:'http://localhost:3000',
+//     methods:['GET','POST','PUT','DELETE'],
+//     allowedHeaders:['Content-Type'],
+// })
+// );
 
 app.get('/',(request,response)=>{
     console.log(request)
